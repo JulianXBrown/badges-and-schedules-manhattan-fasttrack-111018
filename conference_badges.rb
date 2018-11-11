@@ -15,11 +15,11 @@ def batch_badge_creator(names)
   
   end
 
-def assign_rooms (names,index)
+def assign_rooms (names,rooms)
 # You have rooms 1-7.
 #return a list of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"   
 #returns a list of room assignment
-puts "Hello, #{names}!", "You'll be assigned to room #{room}!" 
+puts "Hello, #{names}!", "You'll be assigned to room #{rooms}!" 
   
   
   end 
@@ -40,4 +40,4 @@ puts counter
 end
 end
 
-index = [1,2,3,4,5,6,7]
+rooms = [1,2,3,4,5,6,7]
