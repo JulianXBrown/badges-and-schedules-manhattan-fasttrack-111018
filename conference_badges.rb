@@ -11,7 +11,7 @@ greet(name)
 end
 
 def batch_badge_creator(names) 
-  
+  puts badge_maker 
   
   
 end
