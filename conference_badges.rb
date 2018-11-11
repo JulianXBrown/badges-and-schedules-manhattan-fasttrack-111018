@@ -15,7 +15,7 @@ def batch_badge_creator(names)
   
   end
 
-def assign_rooms (names)
+def assign_rooms (names,index)
 # You have rooms 1-7.
 #return a list of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"   
 #returns a list of room assignment
@@ -25,6 +25,8 @@ puts "Hello, #{names}!", "You'll be assigned to room #{room}!"
   end 
 
 def printer 
-  
+  puts batch_badge_creator.each do |name|
+  puts assign_rooms.each do |index|
 end 
 
+index = []
