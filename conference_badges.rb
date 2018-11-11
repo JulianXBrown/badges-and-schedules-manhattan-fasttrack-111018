@@ -35,9 +35,9 @@ end
 counter = 0
 6.times do |n|
 counter += 1
-if counter <= 
+if counter <= 8
 puts counter
 end
 end
 
-index = []
+index = [1,2,3,4,5,6,7]
