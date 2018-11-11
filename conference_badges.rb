@@ -13,8 +13,7 @@ end
 def batch_badge_creator(names) 
   puts badge_maker 
   
-  
-end
+  end
 
 def assign_rooms (names)
   
@@ -27,3 +26,4 @@ puts "Hello, #{names}!", "You'll be assigned to room #{room}!"
 def printer 
   
 end 
+
