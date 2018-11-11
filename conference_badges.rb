@@ -29,4 +29,15 @@ def printer
   puts assign_rooms.each do |index|
 end 
 
+6.times do |n|
+   puts n + 1
+   end
+counter = 0
+6.times do |n|
+counter += 1
+if counter <= 
+puts counter
+end
+end
+
 index = []
