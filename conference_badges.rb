@@ -17,8 +17,13 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms (names)
-  puts #returns a list of room assignment
+  
+#returns a list of room assignment
+puts "Hello, #{names}!", "You'll be assigned to room #{room}!" 
   
   
+  end 
+
+def printer 
   
 end 
