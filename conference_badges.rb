@@ -42,3 +42,16 @@ end
 end
 
 rooms = [1,2,3,4,5,6,7]
+
+
+
+# hash = Hash.new
+# %w(cat dog wombat).each_with_index { |item, rooms|
+# hash[item] = index
+# }
+
+
+assign_rooms = assign_rooms.new
+%w().each_with_index { |names, rooms| 
+assign_rooms[names] = index 
+}
